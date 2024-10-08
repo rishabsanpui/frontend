@@ -1,0 +1,36 @@
+#navbar {
+    background-color: rgb(65, 115, 114); 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+#logo-container {
+    flex-shrink: 0; 
+}
+
+#logo {
+    font-family: Copperplate, Papyrus, fantasy;
+    color: white;
+    margin: 0;
+    font-size: 2em;
+    padding-right: 30px;
+}
+
+#nav-links {
+    display: flex;
+    gap: 30px; 
+}
+
+.navbutton {
+    font-size: x-large;
+    color: white;
+    text-decoration: none; 
+    padding-left: 20px;
+}
+
+.navbutton:hover {
+    color: lightgray;
+    
+}

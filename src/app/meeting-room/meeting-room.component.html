@@ -1,0 +1,16 @@
+<div id="meeting-room">
+  <h1>Welcome to the meeting room</h1>
+  <p>Meeting ID: {{meetingId}}</p>
+
+  <div id="video-controls">
+    <button (click)="toggleMute()">Toggle Mute</button>
+    <button (click)="toggleVideo()">{{ isVideoOn ? 'Turn Video Off' : 'Turn Video On' }}</button>
+  </div>
+
+  <div id="video-container">
+    <!-- Bind video elements with ViewChild -->
+    <video #localVideo autoplay playsinline muted></video>
+    <video #remoteVideo autoplay playsinline></video>
+
+  </div>
+</div>

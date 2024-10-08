@@ -1,0 +1,67 @@
+#meeting-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    text-align: center;
+    gap: 20px;
+}
+
+#heading {
+    color: rgb(92, 19, 79);
+    font-size: 2.5em;
+}
+
+#meet-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
+
+#input-container {
+    display: flex;
+    gap: 10px; /* Space between the input and join button */
+}
+
+#input-container input {
+    padding: 10px;
+    font-size: 1.1em;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    flex: 1; /* Allow the input to take up available space */
+    box-sizing: border-box;
+}
+
+#input-container input::placeholder {
+    color: gray;
+}
+
+#input-container button {
+    padding: 10px 15px;
+    font-size: 1.1em;
+    background-color: rgb(65, 115, 114);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#input-container button:hover {
+    background-color: rgb(50, 90, 90);
+}
+
+#meet-box button {
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: rgb(65, 115, 114);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#meet-box button:hover {
+    background-color: rgb(50, 90, 90);
+}

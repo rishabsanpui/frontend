@@ -1,0 +1,12 @@
+<div id="meeting-div">
+    <h1 id="heading"><b>Video calls and meetings for everyone</b></h1>
+    <div id="meet-box">
+      <button (click)="startMeeting()">New Meeting</button>
+      <div id="input-container">
+        <input type="text" [(ngModel)]="meetingCode" placeholder="Enter the code or link">
+        <input type="text" [(ngModel)]="participantName" placeholder="Enter your name">
+        <button (click)="joinMeeting()">Join</button>
+      </div>
+      <h2 [innerText]="UUId"></h2> 
+    </div>
+</div>
